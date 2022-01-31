@@ -13,3 +13,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+![This is an image](https://github-readme-streak-stats.herokuapp.com/?user=dxcpp)
+
+![This is an image](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dxcpp&theme=vue)
