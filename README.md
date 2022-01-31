@@ -1,4 +1,5 @@
-### Hi there 👋
+<h1 align='center'> Hi there 👋 I'm Rishat 👨‍💻 </h1>
+
 ![This is an image](https://github-readme-streak-stats.herokuapp.com/?user=dxcpp)
 
 - 🔭 I’m currently working on various interesting projects for myself.
