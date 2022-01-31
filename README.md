@@ -1,8 +1,5 @@
 ### Hi there 👋
-
-**DX C++** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+![This is an image](https://github-readme-streak-stats.herokuapp.com/?user=dxcpp)
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -13,6 +10,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-![This is an image](https://github-readme-streak-stats.herokuapp.com/?user=dxcpp)
-
 ![This is an image](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dxcpp&theme=vue)
+
