@@ -1,4 +1,4 @@
-<h1 align='center'> Hi there 👋 I'm Rishat (DX C++) 👨‍💻 </h1>
+<h1 align='center'> Hi there 👋 I'm Rishat 👨‍💻 </h1>
 
 ![This is an image](https://github-readme-stats.vercel.app/api?username=DxCpp)
 
