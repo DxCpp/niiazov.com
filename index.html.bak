@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Дом проектов Ришата Ниязова - DX C++. Здесь я выкладываю свои проекты в области программирования." />
+        <meta name="author" content="Ришат Ниязов" />
+		    <meta name="keywords" content="Хобби, Программирование, Поекты, GitHub">
+        <!-- Open Graph -->
+        <meta property="og:title" content="Дом проектов Ришата Ниязова - DX C++"/>
+        <meta property="og:description" content="Здесь я выкладываю свои проекты в области программирования."/>
+        <!-- <meta property="og:image" content=""/> -->
+        <meta property="article:author" content="Ришат Ниязов">
+        <meta property="article:tag" content="Хобби">
+        <meta property="article:tag" content="Программирование">
+        <meta property="article:tag" content="Поекты">
+        <meta property="article:tag" content="GitHub">
+        <meta property="og:url" content= "https://dxcpp.ru" />
+        <!--Dublin Core-->
+        <meta name="DC.title" content="Проекты в области программирования" />
+        <meta name="DC.description" content="Какой текстовый контент должен быть на сайте, чтобы привлечь целевую аудиторию и увеличить трафик сайта? Самые популярные вопросы при составлении ТЗ копирайтеру." />
+        <meta name="DC.type" content="text" />
+        <meta name="DC.subject" content="Хобби, Программирование, Поекты, GitHub, DxCpp" />
+        <meta name="DC.language" content="ru-RU" />
+        <meta name="DC.creator" content="Ришат Ниязов" />
+        <meta name="DC.publisher" content="Ришат Ниязов" />
+        <meta name="DC.publisher.url" content="https://dxcpp.ru" />
+        <meta name="DC.format" content="text/html" />
+        <meta name="DC.identifier" content="https://dxcpp.ru/" />
+
+        <title>Дом проектов - DX C++</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Дом проектов DX C++</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Меню
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+		                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">Главная</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Поекты</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Про себя</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="en.html">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="avataaars.svg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Ришат Ниязов</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">ИТ-специалист, Радиолюбитель, Программист-любитель </p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">МОИ ДОМАШНИЕ ПРОЕКТЫ</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/wiki.png" alt="WIKIPEDIA Telegram Bot" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Про себя</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Это просто текст: В своём стремлении улучшить пользовательский опыт мы упускаем, что интерактивные прототипы являются только методом политического участия и ассоциативно распределены по отраслям. Также как выбранный нами инновационный путь является качественно новой ступенью поэтапного и последовательного развития общества! Но стремящиеся вытеснить традиционное производство, нанотехнологии представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть разоблачены. Задача организации, в особенности же дальнейшее развитие различных форм деятельности, в своём классическом представлении, допускает внедрение системы обучения кадров, соответствующей насущным потребностям.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">С другой стороны, укрепление и развитие внутренней структуры создаёт предпосылки для анализа существующих паттернов поведения. Но внедрение современных методик требует определения и уточнения как самодостаточных, так и внешне зависимых концептуальных решений. Но сторонники тоталитаризма в науке, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут заблокированы в рамках своих собственных рациональных ограничений. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки кластеризации усилий.</p></div>
+                </div>
+				</div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">И еще...</h4>
+                        <p>
+						Политика конфиденциальности сайта: Dx C++ не собирает и не обрабатывает прямо или косвенно пользовательские данные, а также не логирует действия пользователей на сайте.
+						</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Я в социальных сетях</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/DxCpp"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/DxCpp"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/rishatspb"><i class="fab fa-fw fa-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://t.me/DxCpp"><i class="fab fa-fw fa-telegram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.rishat.info"><i class="fab fa-fw fa-blogger"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Может, кому-то интересно</h4>
+                        <p>
+						<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://dxcpp.ru">
+						<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!" /></a>
+						</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Авторское право &copy; 2022 Dx C++</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">WIKIPEDIA Telegram Bot</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wiki.png" alt="WIKIPEDIA Telegram Bot" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Для того чтобы попрактиковаться в программирование на языке программирования Python, я написал бота для Телеграмма, который делает поиск по Википедии. Исходный код бота я выложил в открытый доступ на <a href="https://github.com/DxCpp/PyWikiBot">GitHub</a> и опубликовал его на бесплатном хостинге Heroku и теперь он доступен в Телеграмме <a href="https://t.me/TestPyWikiBot">TestPyWikiBot</a>.</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Здесь пока ничего нет</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">В рамках спецификации современных стандартов, некоторые особенности внутренней политики смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Как уже неоднократно упомянуто, тщательные исследования конкурентов лишь добавляют фракционных разногласий и своевременно верифицированы!.</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Здесь пока ничего нет</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Безусловно, семантический разбор внешних противодействий напрямую зависит от распределения внутренних резервов и ресурсов. Разнообразный и богатый опыт говорит нам, что укрепление и развитие внутренней структуры создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса приоритизации разума над эмоциями.</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Здесь пока ничего нет</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">В частности, новая модель организационной деятельности представляет собой интересный эксперимент проверки дальнейших направлений развития. Ясность нашей позиции очевидна: постоянное информационно-пропагандистское обеспечение нашей деятельности говорит о возможностях своевременного выполнения сверхзадачи.</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Здесь пока ничего нет</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Предварительные выводы неутешительны: семантический разбор внешних противодействий однозначно фиксирует необходимость дальнейших направлений развития. Господа, глубокий уровень погружения напрямую зависит от форм воздействия.</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Здесь пока ничего нет</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Учитывая ключевые сценарии поведения, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. Господа, высокотехнологичная концепция общественного уклада, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, высокое качество позиционных исследований позволяет оценить значение новых принципов формирования материально-технической и кадровой базы!</p>
+                                    <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Закрыть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
