@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://hsto.org/webt/e2/0q/nf/e20qnfbscs_ygi5qd9zljiqeupq.gif" alt="follow the white rabbit" width="100%" />
+</p>
 <h1 align='center'> Hi there 👋 I'm Rishat 👨‍💻 </h1>
 
 <p align='center'>
