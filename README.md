@@ -19,6 +19,3 @@
 - 💬 Ask me about Linux and MacOS.
 - 📫 How to reach me: Telegram: @DxCpp, E-Mail messenger.
 - ⚡ Fun fact: A programmer is a person who solves a problem you don't know about in a way you don't understand.
-<p align="center">
-  <img src="https://hsto.org/webt/e2/0q/nf/e20qnfbscs_ygi5qd9zljiqeupq.gif" alt="follow the white rabbit" width="100%" />
-</p>
