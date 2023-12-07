@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сайт Ришата Ниязова</title>
+    <link>https://dxcpp.ru/</link>
+    <description>Recent content on Сайт Ришата Ниязова</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dxcpp.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Таблица маркировки конденсаторов</title>
+      <link>https://dxcpp.ru/posts/14102023/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/posts/14102023/</guid>
+      <description>uF (мкФ) nF (нФ) pF (пФ) Code (Код) 1uF 1000nF 1000000pF 105 0.82uF 820nF 820000pF 824 0.8uF 800nF 800000pF 804 0.7uF 700nF 700000pF 704 0.68uF 680nF 680000pF 624 0.6uF 600nF 600000pF 604 0.56uF 560nF 560000pF 564 0.5uF 500nF 500000pF 504 0.47uF 470nF 470000pF 474 0.4uF 400nF 400000pF 404 0.39uF 390nF 390000pF 394 0.33uF 330nF 330000pF 334 0.3uF 300nF 300000pF 304 0.27uF 270nF 270000pF 274 0.25uF 250nF 250000pF 254 0.22uF 220nF 220000pF 224 0.</description>
+    </item>
+    <item>
+      <title>Модуль на LM7812 с AliExpress</title>
+      <link>https://dxcpp.ru/posts/14092023/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/posts/14092023/</guid>
+      <description>На днях ко мне из Китая пришел интересный готовый модуль выпрямителя с микросхемой стабилизации LM7812. Как написано на сайте AliExpress максимальный ток 1.5А при 12В. Лично мне этот модуль показался достаточно интересным и готовым решением. Но к сожалению при подключении его к приемнику, а точнее к трансиверу - я услышал очень сильный фон 50 Гц. Так что использовать его в качестве выпрямителя для питания приемников точно не получится. Но для питания небольшой Си-Би радиостанции вполне подходит.</description>
+    </item>
+    <item>
+      <title>Коротковолновый приемник прямого усиления</title>
+      <link>https://dxcpp.ru/posts/08092023/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/posts/08092023/</guid>
+      <description>Проблема приемника прямого усиления, особенно на КВ в очень низкой селективности по соседнему каналу. В основном это результат низкой добротности входного контура.
+Из-за этого прием на КВ практически не возможен из-за близкого расположения станций и малой, относительно ширине диапазона, их полосы. Проблема решается в супергетеродинной схеме путем переноса принимаемых сигналов на одну промежуточную частоту и фильтрации через многозвенный фильтр в тракте УПЧ. В приемнике прямого усиления обычно используют вариант с многоконтурным входным фильтром, перестраиваемым по диапазону.</description>
+    </item>
+    <item>
+      <title>Blüdhaven</title>
+      <link>https://dxcpp.ru/projects/bludhaven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/projects/bludhaven/</guid>
+      <description>History Blüdhaven was a former whaling town, which was officially incorporated as a &amp;ldquo;Commonwealth&amp;rdquo; in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center.</description>
+    </item>
+    <item>
+      <title>Hydra</title>
+      <link>https://dxcpp.ru/projects/hydra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/projects/hydra/</guid>
+      <description>Motto Cut off one head and two will take their place</description>
+    </item>
+    <item>
+      <title>Tatooine</title>
+      <link>https://dxcpp.ru/projects/tatooine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dxcpp.ru/projects/tatooine/</guid>
+      <description>A long time ago in a galaxy far, far away&amp;hellip;. A project was planned, but never completed</description>
+    </item>
+  </channel>
+</rss>
