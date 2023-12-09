@@ -41,14 +41,14 @@ enableRobotsTXT = true
   # Текст нижнего колонтитула
   footer = "Ришат Ниязов"
   
-  #socialIcons = [
+  socialIcons = [
   #  {name = "twitter", url = "https://example.com"},
   #  {name = "linkedin", url = "https://example.com"},
-  #  {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
-  #  {name = "instagram", url = "https://example.com"},
+    {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
+    {name = "instagram", url = "https://www.instagram.com/dxcppru/"},
   #  {name = "twitch", url = "https://example.com"},
-  #  {name = "email", url = "mailto:rishat@dxcpp.ru"}
-  #]
+    {name = "email", url = "mailto:rishat@dxcpp.ru"}
+  ]
 
 
 [menu]
