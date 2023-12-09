@@ -42,8 +42,8 @@ enableRobotsTXT = true
   footer = "Ришат Ниязов"
   
   socialIcons = [
-  #  {name = "twitter", url = "https://example.com"},
-  #  {name = "linkedin", url = "https://example.com"},
+    {name = "twitter", url = "https://twitter.com/DxCpp"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
     {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
     {name = "instagram", url = "https://www.instagram.com/dxcppru/"},
   #  {name = "twitch", url = "https://example.com"},
