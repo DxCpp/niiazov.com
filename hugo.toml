@@ -1,0 +1,113 @@
+baseURL = "https://dxcpp.ru/"
+defaultContentLanguage = "ru"
+languageCode = "ru"
+
+title = "Сайт Ришата Ниязова"
+
+theme = "gokarna"
+
+# Автоматически генерировать robots.txt
+enableRobotsTXT = true
+
+[params]
+  # URL-адрес аватара на главной странице
+  #avatarURL = "https://avatars.githubusercontent.com/u/96833766?v=4"
+  avatarURL = "/images/avatar.jpeg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = ""
+
+  # Описание для отображения на главной странице
+  description = "ИТ-специалист, Радиолюбитель (R1BMS), Программист-любитель"
+
+  # Цвет акцента отображается при наведении курсора на теги <a>.
+  accentColor = "#4dc1ff"
+
+  # Отображать кнопку «Вернуться наверх» в сообщениях
+  ShowBackToTopButton = true
+
+  # Вы можете использовать это для внедрения любого HTML в тег <head>.
+  # Идеальный вариант использования — импортировать собственный js/css или добавить фрагмент аналитики.
+  customHeadHTML = ""
+
+  # Ключевые слова, релевантные для SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # Если вы хотите отображать сообщения на главной странице, доступны следующие варианты:
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  showPostsOnHomePage = "recent"
+
+  # Текст нижнего колонтитула
+  footer = "Ришат Ниязов"
+  
+  #socialIcons = [
+  #  {name = "twitter", url = "https://example.com"},
+  #  {name = "linkedin", url = "https://example.com"},
+  #  {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
+  #  {name = "instagram", url = "https://example.com"},
+  #  {name = "twitch", url = "https://example.com"},
+  #  {name = "email", url = "mailto:rishat@dxcpp.ru"}
+  #]
+
+
+[menu]
+    [[menu.main]]
+    # Уникальный идентификатор пункта меню.
+    identifier = "home"
+
+    url = "/"
+    pre = "<span data-feather='home'></span>"
+    post = ""
+    name = "Главна"
+    weight = 1
+
+  [[menu.main]]
+    # Уникальный идентификатор пункта меню.
+    identifier = "posts"
+    url = "/posts/"
+    # Перед именем можно добавить дополнительную информацию (поддерживается формат HTML), например значки.
+    pre = "<span data-feather='book'></span>"
+
+    # После имени можно добавить дополнительную информацию (поддерживается формат HTML), например значки.
+    post = ""
+
+    # Отображаемое имя
+    name = "Блог"
+
+    # Порядок
+    weight = 2
+
+
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "projects"
+    url = "/projects/"
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = "<span data-feather='terminal'></span>"
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Проекты"
+
+    # Weights are used to determine the ordering
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Теги"
+    url = "/tags/"
+    weight = 4
+
+    pre = "<span data-feather='tag'></span>"
+    
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/DxCpp"
+    weight = 5
+    
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
