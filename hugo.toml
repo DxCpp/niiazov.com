@@ -60,7 +60,7 @@ enableRobotsTXT = true
     url = "/"
     pre = "<span data-feather='home'></span>"
     post = ""
-    name = "Главна"
+    name = "Главная"
     weight = 1
 
   [[menu.main]]
