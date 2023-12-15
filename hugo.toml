@@ -47,7 +47,7 @@ enableRobotsTXT = true
     {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
     {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
     {name = "instagram", url = "https://www.instagram.com/dxcppru/"},
-  #  {name = "github", url = "https://github.com/DxCpp"},
+    {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@dxcpp.ru"}
   ]
 
