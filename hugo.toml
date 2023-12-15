@@ -47,7 +47,7 @@ enableRobotsTXT = true
     {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
     {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
     {name = "instagram", url = "https://www.instagram.com/dxcppru/"},
-  #  {name = "twitch", url = "https://example.com"},
+  #  {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@dxcpp.ru"}
   ]
 
@@ -104,11 +104,11 @@ enableRobotsTXT = true
 
     pre = "<span data-feather='tag'></span>"
     
-  [[menu.main]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/DxCpp"
-    weight = 5
-    
-    # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
+#  [[menu.main]]
+#    identifier = "github"
+#    name = "GitHub"
+#    url = "https://github.com/DxCpp"
+#    weight = 5
+#    
+#    # We use feather-icons: https://feathericons.com/
+#    pre = "<span data-feather='github'></span>"
