@@ -5,4 +5,4 @@ type: page
 
 ### Сайт 3D Mодель солнечной системы
 
-![Сайт 3D](3dss.png)
+![Сайт 3D](../projects/3dss.png)
