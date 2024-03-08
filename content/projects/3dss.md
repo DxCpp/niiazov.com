@@ -5,4 +5,4 @@ type: page
 
 ### Сайт 3D Mодель солнечной системы
 
-A project was planned, but never completed
+![Сайт 3D](3dss.png)
