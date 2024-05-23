@@ -1,23 +1,23 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Создания и развертывания сайта Hugo на GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Запускается при push-уведомлениях с таргетингом на ветку по умолчанию.
   push:
     branches:
       - main
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Позволяет запускать этот рабочий процесс вручную на вкладке «Действия».
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Устанавливает разрешения GITHUB_TOKEN, чтобы разрешить развертывание на страницах GitHub.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Разрешить только одно одновременное развертывание, пропуская запуски, поставленные в очередь между текущим запуском и последним запуском в очереди.
+# Однако НЕ отменяйте текущие запуски, поскольку мы хотим, чтобы эти производственные развертывания завершились.
 concurrency:
   group: "pages"
   cancel-in-progress: false
