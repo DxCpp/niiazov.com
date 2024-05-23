@@ -22,7 +22,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
+# По умолчанию bash
 defaults:
   run:
     shell: bash
@@ -52,7 +52,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
+          # Для максимальной обратной совместимости с модулями Hugo.
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
