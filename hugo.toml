@@ -42,10 +42,10 @@ enableRobotsTXT = true
   footer = "Ришат Ниязов"
   
   socialIcons = [
-    {name = "twitter", url = "https://twitter.com/DxCpp"},
+    {name = "message-circle", url = "@dxcpp:matrix.org"},
     {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
     {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
-    {name = "instagram", url = "https://www.instagram.com/dxcppru/"},
+    {name = "command", url = "https://mastodon.social/@rishat"},
     {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@dxcpp.ru"}
   ]
