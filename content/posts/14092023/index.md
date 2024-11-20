@@ -1,7 +1,7 @@
 ---
 title: "Модуль на LM7812 с AliExpress"
 date: 2023-09-14
-tags: ["AliExpress", "LM7812"]
+tags: ["AliExpress", "LM7812", "Радиолюбительство"]
 type: post
 weight: 20
 showTableOfContents: true
