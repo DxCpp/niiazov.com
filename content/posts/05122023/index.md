@@ -2,7 +2,7 @@
 title: "Аппаратный журнал HAMRS"
 date: 2023-12-05
 description: ""
-tags: ["HAMRS", "Аппаратный журнал", "MacOS"]
+tags: ["HAMRS", "Аппаратный журнал", "MacOS", "Радиолюбительство"]
 type: post
 weight: 20
 showTableOfContents: true

@@ -2,7 +2,7 @@
 title: "Аппаратный журнал RUMlogNG"
 date: 2023-11-06
 description: ""
-tags: ["RUMlogNG", "Аппаратный журнал", "MacOS"]
+tags: ["RUMlogNG", "Аппаратный журнал", "MacOS", "Радиолюбительство"]
 type: post
 weight: 20
 showTableOfContents: true
