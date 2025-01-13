@@ -12,7 +12,7 @@ enableRobotsTXT = true
 [params]
   # URL-адрес аватара на главной странице
   #avatarURL = "https://avatars.githubusercontent.com/u/96833766?v=4"
-  avatarURL = "/images/avatar.jpeg"
+  #avatarURL = "/images/avatar.jpeg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
@@ -43,9 +43,9 @@ enableRobotsTXT = true
   
   socialIcons = [
     {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
-    {name = "youtube", url = "https://www.youtube.com/@dxcpp/"},
+    {name = "youtube", url = "https://www.youtube.com/@niiazov/"},
     {name = "github", url = "https://github.com/DxCpp"},
-    {name = "email", url = "mailto:rishat@dxcpp.ru"}
+    {name = "email", url = "mailto:rishat@niiazov.com"}
   ]
 
 
