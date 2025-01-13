@@ -42,7 +42,7 @@ enableRobotsTXT = true
   footer = "Ришат Ниязов"
   
   socialIcons = [
-    {name = "linkedin", url = "https://www.linkedin.com/in/dxcpp/"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/niiazov/"},
     {name = "youtube", url = "https://www.youtube.com/@niiazov/"},
     {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@niiazov.com"}
