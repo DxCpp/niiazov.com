@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [params]
   # URL-адрес аватара на главной странице
-  #avatarURL = "https://avatars.githubusercontent.com/u/96833766?v=4"
+  avatarURL = "https://avatars.githubusercontent.com/u/96833766?v=4"
   #avatarURL = "/images/avatar.jpeg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
