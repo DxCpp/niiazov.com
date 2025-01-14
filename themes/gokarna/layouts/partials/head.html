@@ -1,15 +1,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <style>
         :root {
             --accent-color: {{ .Site.Params.AccentColor | default "#FF4D4D" }};
+            --font-size: {{ .Site.Params.FontSize | default "17.5px" }};
         }
     </style>
 
-    {{ $title := .Title | default .Site.Title }}
-    {{ $description := .Description | default .Site.Params.Description }}
+    {{ $title := .Title | markdownify | default .Site.Title }}
+    {{ $description := ((.Description | default (.Summary | default .Content) | default .Site.Params.Description) | plainify | truncate 160) }}
     {{ $image := .Params.image | default (.Scratch.Get "avatarImgSrc") }}
     {{ $siteKeywords := .Site.Params.MetaKeywords | default (slice) }}
     {{ $postKeywords := .Params.tags | default (slice) }}
@@ -35,7 +36,7 @@
     <meta name="twitter:image" content="{{ absURL $image }}">
 
     <!-- SEO canonicals: helps Google understand your site better when using marketing campaign tagging etc -->
-    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="canonical" href="{{ .Permalink }}">
 
     {{ $cssNormalize := resources.Get "css/normalize.min.css" }}
     <link rel="stylesheet" type="text/css" href="{{ $cssNormalize.RelPermalink }}" media="print">
