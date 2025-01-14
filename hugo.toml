@@ -47,7 +47,8 @@ enableRobotsTXT = true
     {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@niiazov.com"}
   ]
-
+  dateFormat = "2 January, 2006"
+  
 
 [menu]
     [[menu.main]]
