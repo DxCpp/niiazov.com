@@ -43,12 +43,14 @@ enableRobotsTXT = true
   
   socialIcons = [
     {name = "linkedin", url = "https://www.linkedin.com/in/niiazov/"},
+    {name = "mastodon", url = "https://c.im/@rishat"},
     {name = "youtube", url = "https://www.youtube.com/@niiazov/"},
     {name = "github", url = "https://github.com/DxCpp"},
     {name = "email", url = "mailto:rishat@niiazov.com"}
   ]
+
   dateFormat = "2 January, 2006"
-  
+
 
 [menu]
     [[menu.main]]
