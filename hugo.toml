@@ -43,6 +43,7 @@ enableRobotsTXT = true
   
   socialIcons = [
     {name = "linkedin", url = "https://www.linkedin.com/in/niiazov/"},
+    {name = "x", url = "https://x.com/DxCpp"},
     {name = "mastodon", url = "https://c.im/@rishat"},
     {name = "youtube", url = "https://www.youtube.com/@niiazov/"},
     {name = "github", url = "https://github.com/DxCpp"},
