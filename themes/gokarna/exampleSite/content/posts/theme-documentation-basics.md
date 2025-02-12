@@ -16,9 +16,6 @@ Follow these steps to initialize your new website.
 
 If you are new to [Hugo](https://gohugo.io/), we suggest following this [great documentation for beginners](https://gohugo.io/getting-started/quick-start/).
 
-<!-- Set human-readable heading IDs:
-    https://gohugo.io/content-management/cross-references/#heading-ids -->
-
 ### a. Create Your Project {#create-your-project}
 
 Hugo provides a `new` subcommand to create a new website:
@@ -195,7 +192,7 @@ See this sample `config.toml`, which uses Gokarna's default values, and [example
 
   # Show the previous and next post in your timeline: "true", "false"
   # Incompatible with Weight
-  togglePreviousAndNextButtons = "false"
+  togglePreviousAndNextButtons = false
 ```
 
 ### Accent color
@@ -258,7 +255,7 @@ Examples are available in the [advanced documentation](/posts/theme-documentatio
 
 ### Display content on the home page
 
-Markdown content in `content/index-about.md` will be rendered on the home page, below the social icons.
+Markdown content in `content/_index.md` will be rendered on the home page, below the social icons.
 
 ### Display posts on the home page
 
@@ -325,7 +322,16 @@ If any post front matter contains `weight`, the posts will not appear by Date. S
 
 ```toml
 [params]
-  togglePreviousAndNextButtons = "false"
+  togglePreviousAndNextButtons = false
+```
+
+### Reading time
+
+Display a post's [estimated reading time](https://gohugo.io/methods/page/readingtime/) in minutes.
+
+```toml
+[params]
+  displayReadingTime = false
 ```
 
 ### robots.txt
